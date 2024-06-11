@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Rational";
+  font-weight: 400;
+  src: url("./font/rational-light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Rational";
+  font-weight: 600;
+  src: url("./font/rational-light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Rational";
+  font-weight: 700;
+  src: url("./font/rational-semibold.otf") format("otf");
+}
+
+* {
+  font-family: "Rational", sans-serif;
+}

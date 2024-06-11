@@ -1,12 +1,13 @@
 import { OverrideToken } from "antd/es/theme/interface";
 import { AliasToken } from "antd/es/theme/interface/alias";
-import { BLACK_COLORS, COLORS } from "./colors";
+import { BLACK_COLORS } from "./colors";
 
 export const THEME_TOKEN: Partial<AliasToken> = {};
 export const THEME_COMPONENT: OverrideToken = {
   Button: {
     colorPrimary: BLACK_COLORS["primaryColor300"],
     colorPrimaryHover: BLACK_COLORS["primaryColor200"],
+    colorPrimaryActive: BLACK_COLORS["primaryColor200"],
     colorPrimaryBg: BLACK_COLORS["primaryColor300"],
     colorBorder: BLACK_COLORS["primaryColor300"],
     colorText: BLACK_COLORS["primaryColor300"],

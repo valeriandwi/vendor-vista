@@ -4,6 +4,10 @@ import React from "react";
 const MenuItem: React.FC = () => {
   const items = [
     {
+      key: "dashboard",
+      label: "Dashboard",
+    },
+    {
       key: "materials",
       label: "Materials",
     },
@@ -16,7 +20,7 @@ const MenuItem: React.FC = () => {
       label: "Bidding History",
     },
   ];
-  return <Menu items={items} mode="horizontal" />;
+  return <Menu items={items} mode="horizontal" className="w-full" />;
 };
 
 export default MenuItem;

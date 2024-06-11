@@ -4,8 +4,12 @@ import { UserOutlined } from "@ant-design/icons";
 
 const items: MenuProps["items"] = [
   {
-    key: "1",
+    key: "viewProfile",
     label: <a>View Profile</a>,
+  },
+  {
+    key: "logout",
+    label: <a>Logout</a>,
   },
 ];
 
